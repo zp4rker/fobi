@@ -6,11 +6,11 @@
 
     <groupId>com.zp4rker</groupId>
     <artifactId>fobi</artifactId>
-    <version>0.0.1-DEV</version>
+    <version>1.1.0-alpha</version>
 
     <properties>
         <main.class>com.zp4rker.fobi.FobiKt</main.class>
-        <kotlin.version>1.3.60</kotlin.version>
+        <kotlin.version>1.3.61</kotlin.version>
     </properties>
 
     <repositories>
@@ -25,6 +25,11 @@
             <groupId>com.zp4rker</groupId>
             <artifactId>discore</artifactId>
             <version>2.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <version>3.6.3</version>
         </dependency>
     </dependencies>
 
@@ -45,6 +50,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>${main.class}</mainClass>
+                                    <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                 </manifest>
                             </archive>
                             <descriptorRefs>

@@ -1,4 +1,7 @@
 {
-  "token": "insert token here",
-  "prefix": "/"
+  "token": "insert discord token here",
+  "prefix": "/",
+  "admin": "insert admin user id here",
+  "github-access-token": "insert github token here",
+  "restart-script": "/path/to/script"
 }
